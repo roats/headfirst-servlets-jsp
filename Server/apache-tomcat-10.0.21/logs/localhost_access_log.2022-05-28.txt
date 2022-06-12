@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:13:08 +0900] "GET /listnerTest/ListenTest.do HTTP/1.1" 200 76
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:13:10 +0900] "GET /Beer-v1/SelectBeer.do HTTP/1.1" 405 826
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:13:21 +0900] "GET /Beer-v1/SelectBeer.do HTTP/1.1" 405 826
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:13:23 +0900] "GET /listnerTest/ListenTest.do HTTP/1.1" 200 76
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:17:07 +0900] "GET /Beer-v1/SelectBeer.do HTTP/1.1" 405 826
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:17:54 +0900] "GET /Beer-v1/ HTTP/1.1" 404 820
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:18:03 +0900] "GET /Beer-v1/form.html HTTP/1.1" 200 690
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:18:09 +0900] "POST /Beer-v1/SelectBeer.do HTTP/1.1" 200 144
+0:0:0:0:0:0:0:1 - - [28/May/2022:18:18:19 +0900] "GET /listnerTest/ListenTest.do HTTP/1.1" 200 76

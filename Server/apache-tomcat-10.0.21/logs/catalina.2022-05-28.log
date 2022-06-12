@@ -1,0 +1,50 @@
+28-May-2022 18:13:03.844 WARNING [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+28-May-2022 18:13:03.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.21
+28-May-2022 18:13:03.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  May 10 2022 21:53:12 UTC
+28-May-2022 18:13:03.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.21.0
+28-May-2022 18:13:03.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+28-May-2022 18:13:03.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.15.7
+28-May-2022 18:13:03.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+28-May-2022 18:13:03.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
+28-May-2022 18:13:03.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.12+8-LTS-237
+28-May-2022 18:13:03.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+28-May-2022 18:13:03.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21
+28-May-2022 18:13:03.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21
+28-May-2022 18:13:03.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+28-May-2022 18:13:03.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+28-May-2022 18:13:03.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+28-May-2022 18:13:03.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-May-2022 18:13:03.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-May-2022 18:13:03.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/conf/logging.properties
+28-May-2022 18:13:03.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2022 18:13:03.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2022 18:13:03.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2022 18:13:03.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-May-2022 18:13:03.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+28-May-2022 18:13:03.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21
+28-May-2022 18:13:03.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21
+28-May-2022 18:13:03.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/temp
+28-May-2022 18:13:03.869 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/jinho/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-May-2022 18:13:04.186 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+28-May-2022 18:13:04.220 INFO [main] org.apache.catalina.startup.Catalina.load [598] 밀리초 내에 서버가 초기화되었습니다.
+28-May-2022 18:13:04.279 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+28-May-2022 18:13:04.280 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.21]
+28-May-2022 18:13:04.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/listnerTest]을(를) 배치합니다.
+28-May-2022 18:13:04.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/listnerTest]에 대한 배치가 [52] 밀리초에 완료되었습니다.
+28-May-2022 18:13:04.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/Beer-v1]을(를) 배치합니다.
+28-May-2022 18:13:04.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/Beer-v1]에 대한 배치가 [29] 밀리초에 완료되었습니다.
+28-May-2022 18:13:04.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/docs]을(를) 배치합니다.
+28-May-2022 18:13:04.683 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/docs]에 대한 배치가 [19] 밀리초에 완료되었습니다.
+28-May-2022 18:13:04.683 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/manager]을(를) 배치합니다.
+28-May-2022 18:13:04.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/manager]에 대한 배치가 [41] 밀리초에 완료되었습니다.
+28-May-2022 18:13:04.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/examples]을(를) 배치합니다.
+28-May-2022 18:13:04.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/examples]에 대한 배치가 [260] 밀리초에 완료되었습니다.
+28-May-2022 18:13:04.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/host-manager]을(를) 배치합니다.
+28-May-2022 18:13:05.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Applications/JH/HeadFirst Servlets & JSP/Server/apache-tomcat-10.0.21/webapps/host-manager]에 대한 배치가 [24] 밀리초에 완료되었습니다.
+28-May-2022 18:13:05.015 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+28-May-2022 18:13:05.030 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [810] 밀리초 내에 시작되었습니다.
+28-May-2022 20:05:14.960 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+28-May-2022 20:05:14.960 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+28-May-2022 20:05:14.964 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+28-May-2022 20:05:14.991 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+28-May-2022 20:05:15.000 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
